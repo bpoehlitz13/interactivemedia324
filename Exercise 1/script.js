@@ -2,8 +2,5 @@ $('button').click(function(){
 	$('.collapse').fadeToggle();
 });
 $('.vanish').mouseenter(function(){
-	$('.vanish').show();
-});
-$('.vanish').mouseleave(function(){
-	$('.vanish').hide();
+	$('.vanish').fadeToggle();
 });

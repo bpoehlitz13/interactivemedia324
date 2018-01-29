@@ -1,3 +1,6 @@
 $('button').click(function(){
-	$('.collapse').toggle();
+	$('.collapse').fadeToggle();
+});
+$('.vanish').mouseenter(function(){
+	$('.vanish').fadeToggle();
 });

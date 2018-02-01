@@ -1,3 +1,3 @@
         $('.drawing').click(function(){
-          $('.drawing').attr("background-color", "darkblue")
+          $().attr("background-color", "darkblue")
         };

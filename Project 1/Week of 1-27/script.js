@@ -1,5 +1,3 @@
-        $('.drawing').hover(function(){
+        $('.drawing').click(function(){
           $('.drawing').attr("background-color", "darkblue")
-        }, function () {
-          $('.drawing').attr("background-color", "white")
-        });
+        };

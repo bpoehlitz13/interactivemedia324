@@ -1,3 +1,5 @@
         $('.drawing').click(function(){
-          $(this).attr("background-color", "darkblue")
-        }
+          $(this).attr("background-color", funtion() {
+          	return "darkblue";
+          })
+        };

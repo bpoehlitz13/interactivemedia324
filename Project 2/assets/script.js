@@ -1,8 +1,8 @@
-var randomize === 0
+var damage = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
-$('button').click(function(){
-	$('.collapse').fadeToggle();
+$(document).ready(function(){
+	$('img').fadeToggle('slow');
 });
-$('.vanish').mouseenter(function(){
+$('button').click(function(){
 	$('.vanish').hide();
 });

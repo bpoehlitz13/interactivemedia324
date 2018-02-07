@@ -1,4 +1,4 @@
-var "randomize" === 0
+var randomize === 0
 
 $('button').click(function(){
 	$('.collapse').fadeToggle();

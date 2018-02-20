@@ -1,5 +1,5 @@
 $('button').click(function(){
-	$('img').toggleFade(20000);
+	$('img').toggleFade('slow');
 });
 $('button').click(function(){
 	$('.vanish').hide();

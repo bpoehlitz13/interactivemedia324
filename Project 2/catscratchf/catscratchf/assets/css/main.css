@@ -32,7 +32,7 @@ body {
 }​
 
 .image{
-   content:url("images/angrybackground.jpg");
+   content:url(images/angrybackground.jpg);
    position:fixed;
    left: 0;
    top: 0;

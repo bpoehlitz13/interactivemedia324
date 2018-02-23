@@ -5,8 +5,7 @@ $(function() {
     $('.cathover').hide();
     $('.catsleep').mouseenter(function() {
       	$('.cathover').show();
-      	$(body).toggleClass('background-image');
-      	$(body).css('background-color', 'red');
+      	$('center').addClass("red");
     });
     $('.cathover').mouseleave(function() {
       	$('.cathover').hide();

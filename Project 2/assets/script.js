@@ -5,9 +5,10 @@ $(function() {
     $('.cathover').hide();
     $('.catsleep').mouseenter(function() {
       	$('.cathover').show();
-      	$('center').addClass("red");
+      	$('body').css("background-color", "firebrick");
     });
     $('.cathover').mouseleave(function() {
       	$('.cathover').hide();
+      	$('body').css("background-color", "white");
     });
 });

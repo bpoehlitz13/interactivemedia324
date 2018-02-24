@@ -9,6 +9,25 @@ $(function() {
     });
     $('.cathover').mouseleave(function() {
       	$('.cathover').hide();
-      	$('body').css("background-color", "white");
+      	$('body').css("background-color", "pink");
     });
 });
+
+        $(document).ready(function(){
+
+            //Plays the file when the mouse is over the element
+            $(".cathover").mouseover (function (){
+
+                $("#catscratchfever")[0].play();
+
+            });
+
+            //Pause the file when the mouse leaves the element
+             $(".cathover").mouseleave (function (){
+
+                $("#catscratchfever")[0].pause();
+                $("#catscratchfever").currentTime=0;
+
+            });
+
+        });

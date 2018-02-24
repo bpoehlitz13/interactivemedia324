@@ -32,7 +32,7 @@ $(function() {
 
         });
 
-var x = document.getElementById("myAudio");
+var x = document.getElementById("catscratchfever");
 
 function enableLoop() { 
     x.loop = true;

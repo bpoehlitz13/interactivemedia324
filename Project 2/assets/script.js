@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	alert('welcome :)');
+	alert('Pet the cat! :3');
 });
 $(function() {
     $('.cathover').hide();
@@ -31,3 +31,19 @@ $(function() {
             });
 
         });
+
+var x = document.getElementById("myAudio");
+
+function enableLoop() { 
+    x.loop = true;
+    x.load();
+} 
+
+function disableLoop() { 
+    x.loop = false;
+    x.load();
+} 
+
+function checkLoop() { 
+    alert(x.loop);
+} 

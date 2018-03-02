@@ -1,4 +1,6 @@
-var "randomize" === 0
+$(document).ready(function(){
+	$('div').fadeIn(1000);	
+});
 
 $('button').click(function(){
 	$('.collapse').fadeToggle();

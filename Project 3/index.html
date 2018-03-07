@@ -4,10 +4,72 @@
 			<title>Project 3</title>
 			<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 			<style>
+				body {
+				    margin: 0;
+				}
+						.button-container {
+					position: fixed;
+					bottom: 75px;
+					left: 75px;
+				}
+				.title {
+  					  border-bottom: 1px solid black;
+  					  padding: 20px;  					  
+  					  cursor: pointer;
+				}
+				.title:hover {
+  					  background: lightblue;
+				}
+				.content {
+  					  padding: 20px;
+   					  display: none;
+  					  border-bottom: 1px solid black;
+  					  padding-left: 18%;
+				}
+				.image {
+					border: 5px solid white;
+					padding-left: 7%;
+				}
 			</style>
 		</head>
 
 		<body>
+			<div class="button-container">
+				<button>All Interactive Projects</button>
+			</div>
+			<div class="picture">
+    			<div class="title">1.
+    				<img src='cat4.jpg' style='height: 100px; padding-left: 7%'></img>
+    			</div>
+    			<div class="content">
+    				<div class="image">
+    					<img src='cat4.jpg' style='width: 400px'></img>
+    				</div>
+    				This is where the first image will be.
+    			</div>
+			</div>
+			<div class="picture">
+    			<div class="title">2.
+    				<img src='cat5.jpg' style='height: 100px; padding-left: 14%'></img>
+    			</div>
+    			<div class="content">
+    				<div class="image">
+    					<img src='cat5.jpg' style='width: 400px'></img>
+    				</div>
+    				This is where the second image will be.
+    			</div>
+			</div>
+			<div class="picture">
+    			<div class="title">3.
+    				<img src='cat6.jpg' style='height: 100px; padding-left: 21%'></img>
+    			</div>
+    			<div class="content">
+       				<div class="image">
+    					<img src='cat6.jpg' style='width: 400px'></img>
+    				</div>
+    				This is where the third image will be.
+    			</div>
+			</div>
 			<script src='https://ajax.googleapis.com/ajax/libs/
 			jquery/2.1.4/jquery.min.js'>
 			</script>

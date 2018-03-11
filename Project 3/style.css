@@ -7,18 +7,16 @@
 					padding-left: 80px;		
 				}
 				.title {
-  					border-bottom: 1px solid black;
   					padding: 20px;  					  
   					cursor: pointer;
 				}
 				.title:hover {
   					border-bottom: 9px solid lightblue;
-  					border-top: 9px solid lightblue;
 				}
 				.content {
   					padding: 20px;
    					display: none;
-  					border-bottom: 1px solid black;
+  					border-bottom: 9px solid lightblue;
   					padding-left: 4%;
 				}
 				.image {

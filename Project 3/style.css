@@ -1,25 +1,33 @@
 				body {
 				    margin: 0;
 				}
+                button {
+                    padding: 10px;
+                    margin-right: 40px;
+                }
 				.button-container {
-					padding-top: 20px;
-					padding-bottom: 20px;
-					padding-left: 80px;		
+                    position: fixed;
+					bottom: 20px;
+					left: 80px;		
 				}
 				.title {
   					padding: 20px;  					  
   					cursor: pointer;
+                    width: 120%;
 				}
 				.title:hover {
-  					border-bottom: 9px solid lightblue;
+  					border-bottom: 7px solid lightblue;
 				}
 				.content {
   					padding: 20px;
    					display: none;
-  					border-bottom: 9px solid lightblue;
+                    border-top: 7px solid lightblue;
+  					border-bottom: 7px solid lightblue;
+                    background: lightblue;
   					padding-left: 4%;
 				}
 				.image {
 					border: 5px solid white;
 					padding-left: 7%;
+                    background: white;
 				}

@@ -7,10 +7,14 @@
 				body {
 				    margin: 0;
 				}
+                button {
+                    padding: 10px;
+                    margin-right: 40px;
+                }
 				.button-container {
-					padding-top: 20px;
-					padding-bottom: 20px;
-					padding-left: 80px;		
+                    position: fixed;
+					bottom: 20px;
+					left: 80px;		
 				}
 				.title {
   					padding: 20px;  					  
@@ -22,22 +26,25 @@
 				.content {
   					padding: 20px;
    					display: none;
+                    border-top: 7px solid lightblue;
   					border-bottom: 7px solid lightblue;
-  					padding-left: 4%;
+                    background: lightblue;
+                    margin-left: 4%;
 				}
 				.image {
 					border: 5px solid white;
 					padding-left: 7%;
+                    background: white;
 				}
 			</style>
 		</head>
 
 		<body>
-			<img src="header.jpg" style='height: 400px'></img>
+			<img src="header.jpg" style='height: 25%; max-height: 500px; width: 110%'></img>
 			<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='caticon1.jpg' style='width: 100px; position: relative; top: -40px; padding-left: 10%; margin-bottom: -35px'></img>
+    				<img src='caticon1.jpg' style='height: 120px; position: relative; top: -50px; padding-left: 10%; margin-bottom: -35px'></img>
     			</div>
     			<div class="content">
     				<div class="image">
@@ -56,7 +63,7 @@
 			<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='caticon2.jpg' style='width: 100px; position: relative; top: -40px; padding-left: 45%; margin-bottom: -35px''></img>
+    				<img src='caticon2.jpg' style='height: 120px; position: relative; top: -50px; padding-left: 40%; margin-bottom: -35px''></img>
     			</div>
     			<div class="content">
     				<div class="image">
@@ -73,7 +80,7 @@
 			<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='caticon3.jpg' style='height: 100px; position: relative; top: -40px; padding-left: 64%; margin-bottom: -35px'></img>
+    				<img src='caticon3.jpg' style='height: 120px; position: relative; top: -50px; padding-left: 55%; margin-bottom: -35px'></img>
     			</div>
     			<div class="content">
        				<div class="image">
@@ -89,7 +96,7 @@
 			<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='womanicon1.jpg' style='width: 100px; position: relative; top: -40px; padding-left: 25%; margin-bottom: -35px'></img>
+    				<img src='womanicon1.jpg' style='width: 120px; position: relative; top: -50px; padding-left: 20%; margin-bottom: -35px'></img>
     			</div>
     			<div class="content">
     				<div class="image">
@@ -107,7 +114,7 @@
 						<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='womanicon2.jpg' style='height: 100px; position: relative; top: -40px; padding-left: 80%; margin-bottom: -35px'></img>
+    				<img src='womanicon2.jpg' style='height: 120px; position: relative; top: -50px; padding-left: 70%; margin-bottom: -35px'></img>
     			</div>
     			<div class="content">
     				<div class="image">
@@ -121,7 +128,9 @@
     			</div>
 			</div>
 			<div class="button-container">
-				<button>All Interactive Projects</button>
+                <button>3 Weeks of Drawing Stuff</button>
+				<button>Cat Scratch Fever</button>
+                <button>WARNING Signs</button>
 			</div>
 			<script src='https://ajax.googleapis.com/ajax/libs/
 			jquery/2.1.4/jquery.min.js'>

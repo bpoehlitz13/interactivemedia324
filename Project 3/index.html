@@ -7,26 +7,40 @@
 				body {
 				    margin: 0;
 				}
-                button {
-                    padding: 10px;
-                    margin-right: 40px;
-                }
                 .about {
                     position: fixed;
                     bottom: 20px;
-                    right: 50px;     
+                    right: 40px;
+                    cursor: pointer;     
                 }
 				.button-container {
                     position: fixed;
 					bottom: 20px;
-					left: 50px;		
+					left: 140px;
+					display: none;		
+				}
+				.button-toggler {
+                    position: fixed;
+					bottom: 20px;
+					left: 40px;
+					cursor: pointer;		
 				}
 				.title {
-  					padding: 20px;  					  
+  					padding: 20px;
   					cursor: pointer;
 				}
-				.title:hover {
-  					border-bottom: 7px solid lightblue;
+				.overlay {
+				  position: absolute;
+				  top: 0;
+				  bottom: 0;
+				  left: 0;
+				  right: 0;
+				  height: 100%;
+				  width: 100%;
+				  opacity: 0;
+				}
+				.title:hover .overlay {
+				  opacity: 1;
 				}
 				.content {
   					padding: 20px;
@@ -41,6 +55,11 @@
 					padding-left: 7%;
                     background: white;
 				}
+				.icon {
+					position: relative;
+					top: -50px;
+					margin-bottom: -35px;
+				}
 			</style>
 		</head>
 
@@ -49,7 +68,12 @@
 			<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='caticon1.jpg' style='height: 120px; position: relative; top: -50px; padding-left: 10%; margin-bottom: -35px'></img>
+    				<div class="icon">
+    					<img src='caticon1A.jpg' style='height: 120px; padding-left: 10%;'></img>
+    					<div class="overlay">
+    						<img src='caticon1B.jpg' style='height: 120px; padding-left: 10%;'></img>
+    					</div>    					
+    				</div>
     			</div>
     			<div class="content">
     				<div class="image">
@@ -76,7 +100,12 @@
 			<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='caticon2.jpg' style='height: 120px; position: relative; top: -50px; padding-left: 40%; margin-bottom: -35px''></img>
+    				<div class="icon">
+    					<img src='peopleicon1A.jpg' style='height: 120px;  padding-left: 40%;'></img>
+    					<div class="overlay">
+    						<img src='peopleicon1B.jpg' style='height: 130px; padding-left: 40%;'></img>
+    					</div>    				
+    				</div>
     			</div>
     			<div class="content">
     				<div class="image">
@@ -90,61 +119,87 @@
 			<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='caticon3.jpg' style='height: 120px; position: relative; top: -50px; padding-left: 55%; margin-bottom: -35px'></img>
+    				<div class="icon">
+    					<img src='caticon3A.jpg' style='height: 120px; padding-left: 55%;'></img>
+    					<div class="overlay">
+    						<img src='caticon3B.jpg' style='height: 120px; padding-left: 55%;'></img>
+    					</div>    					
+    				</div>
     			</div>
     			<div class="content">
        				<div class="image">
-    					<img src='cat17.jpg' style='width: 200px'></img>
-    					<img src='cat18.jpg' style='width: 400px'></img>
-    					<img src='cat19.jpg' style='width: 200px'></img>
-    					<img src='cat20.jpg' style='width: 200px'></img>
-    					<img src='cat22.jpg' style='width: 200px'></img>
-    					<img src='cat21.jpg' style='width: 600px'></img>
+    					<img src='images/cat2.jpg' style='width: 200px'></img>
+    					<img src='images/cat3.jpg' style='width: 200px'></img>
+    					<img src='images/cat4.jpg' style='width: 200px'></img>
+    					<img src='images/cat5.jpg' style='width: 200px'></img>
+    					<img src='images/cat6.jpg' style='width: 200px'></img>
+    					<img src='images/cat11.jpg' style='width: 200px'></img>
+    					<img src='images/cat12.jpg' style='width: 600px'></img>
+    					<img src='images/cat14.jpg' style='width: 300px'></img>
+    					<img src='images/cat16.jpg' style='width: 300px'></img>
+    					<img src='images/cat17.jpg' style='width: 200px'></img>
+    					<img src='images/cat19.jpg' style='width: 200px'></img>
+    					<img src='images/cat20.jpg' style='width: 200px'></img>
+    					<img src='images/cat22.jpg' style='width: 200px'></img>
+    					<img src='images/cat21.jpg' style='width: 400px'></img>
     				</div>
     			</div>
 			</div>
 			<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='womanicon1.jpg' style='width: 120px; position: relative; top: -50px; padding-left: 20%; margin-bottom: -35px'></img>
+    				<div class="icon">
+    					<img src='womanicon1A.jpg' style='height: 120px; padding-left: 20%;'></img>
+    					<div class="overlay">
+    						<img src='womanicon1B.jpg' style='height: 120px; padding-left: 20%;'></img>
+    					</div>
+    				</div>
     			</div>
     			<div class="content">
     				<div class="image">
-    					<img src='woman1.jpg' style='width: 200px'></img>
-    					<img src='woman2.jpg' style='width: 200px'></img>
-    					<img src='woman6.jpg' style='width: 200px'></img>
-    					<img src='woman3.jpg' style='width: 600px'></img>
-    					<img src='woman4.jpg' style='width: 600px'></img>
-    					<img src='woman9.jpg' style='width: 200px'></img>
-    					<img src='woman10.jpg' style='width: 200px'></img>
-    					<img src='woman11.jpg' style='width: 200px'></img>
+    					<img src='images/woman1.jpg' style='width: 200px'></img>
+    					<img src='images/woman2.jpg' style='width: 200px'></img>
+    					<img src='images/woman6.jpg' style='width: 200px'></img>
+    					<img src='images/woman3.jpg' style='width: 600px'></img>
+    					<img src='images/woman4.jpg' style='width: 600px'></img>
+    					<img src='images/woman9.jpg' style='width: 200px'></img>
+    					<img src='images/woman10.jpg' style='width: 200px'></img>
+    					<img src='images/woman11.jpg' style='width: 200px'></img>
     				</div>
     			</div>
 			</div>
 						<div class="picture">
     			<div class="title">
     				<img src='line.jpg' style='width: 120%; position: relative; left: -10%'></img>
-    				<img src='womanicon2.jpg' style='height: 120px; position: relative; top: -50px; padding-left: 70%; margin-bottom: -35px'></img>
+    				<div class="icon">
+    					<img src='caticon2A.jpg' style='height: 120px; padding-left: 70%;'></img>
+    					<div class="overlay">
+    						<img src='caticon2B.jpg' style='height: 120px; padding-left: 70%;'></img>
+    					</div>    					
+    				</div>
     			</div>
     			<div class="content">
     				<div class="image">
-    					<img src='woman7.jpg' style='width: 300px'></img>
-    					<img src='woman8.jpg' style='width: 300px'></img>
-    					<img src='woman5.jpg' style='width: 600px'></img>
-    					<img src='woman12.jpg' style='width: 200px'></img>
-    					<img src='woman13.jpg' style='width: 200px'></img>
-    					<img src='woman14.jpg' style='width: 200px'></img>
+    					<img src='images/woman7.jpg' style='width: 300px'></img>
+    					<img src='images/woman8.jpg' style='width: 300px'></img>
+    					<img src='images/woman5.jpg' style='width: 600px'></img>
+    					<img src='images/woman12.jpg' style='width: 200px'></img>
+    					<img src='images/woman13.jpg' style='width: 200px'></img>
+    					<img src='images/woman14.jpg' style='width: 200px'></img>
     				</div>
     			</div>
 			</div>
-			<div class="button-container">
-                <a href="http://bpoehlitz13.github.io/interactivemedia324/Project 1/"; target="blank"><button>3 Weeks of Drawing Stuff</button></a>
-				<a href="http://bpoehlitz13.github.io/interactivemedia324/Project 2/"; target="blank"><button>Cat Scratch Fever</button></a>
-                <a href="http://bpoehlitz13.github.io/interactivemedia324/Exercise 2/"; target="blank"><button>WARNING Signs</button></a>
-			</div>
-            <div class="about">
-                <button>About</button>
+			<div class="about">
+                <img src='abouticon.jpg' style='height: 50px' title="Click on this to read a few sentences I wrote describing me"></img>
             </div>
+            <div class="button-toggler">
+            	<img src='mouseicon.jpg' style='height: 50px; padding-left: 15px;' title='Click on this to see some of the interactive projects I had made'></img>
+            </div>
+			<div class="button-container">
+                <a href="http://bpoehlitz13.github.io/interactivemedia324/Project 1/"; target="blank"><img src='calendaricon.jpg' style='height: 50px; padding-left: 15px;' title='Two and a half weeks worth of drawings with additional color commentary'></img></a>
+				<a href="http://bpoehlitz13.github.io/interactivemedia324/Project 2/"; target="blank"><img src='csficon.jpg' style='height: 50px; padding-left: 15px;'  title='Pet the cat! :3'></img></a>
+                <a href="http://bpoehlitz13.github.io/interactivemedia324/Exercise 2/"; target="blank"><img src='warningicon.jpg' style='height: 50px; padding-left: 15px;' title='WARNING signs'></img></a>
+			</div>
 			<script src='https://ajax.googleapis.com/ajax/libs/
 			jquery/2.1.4/jquery.min.js'>
 			</script>

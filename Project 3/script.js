@@ -1,5 +1,5 @@
 $('.about').click(function() {
-	alert("My name is Bryce Poehlitz. I draw a lot of different things. This is only a sample of the many things I like to draw. If you need to contact me for any reason, my email address is bphltz@gmail.com.");
+	alert("My name is Bryce Poehlitz. I am trained as an artist and graphic designer. This is a collection of some of the various images that I draw on a semi-daily basis, as well as projects that I have made for some of my classes. If you need to contact me, my email address is bphltz@gmail.com.");
 });
 $('.button-toggler').click(function(){
     $('.button-container').fadeToggle(200);

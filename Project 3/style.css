@@ -53,4 +53,6 @@
 					position: relative;
 					top: -50px;
 					margin-bottom: -35px;
+                    max-width: 150px;
+                    max-height: 150px;
 				}
